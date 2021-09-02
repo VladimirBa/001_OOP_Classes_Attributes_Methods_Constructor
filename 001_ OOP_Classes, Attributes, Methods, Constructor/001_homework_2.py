@@ -15,12 +15,6 @@ class Resume:
     def __init__(self, resume):
         self.resume = resume
 
-    def get_resume(self):
-        if book1:
-            return self.resume == resume1
-        else:
-            return self.resume == resume2
-
     def __str__(self):
         return self.resume
 
